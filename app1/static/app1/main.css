@@ -1,0 +1,28 @@
+body{
+  background-color: #ffff
+}
+
+.container {
+  font-family: arial;
+  font-size: 24px;
+  margin-left: 0px;
+  margin-top:0px;
+  width: 1450px;
+  height: 385px;
+  background-image: url('images.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+/* .back-img{
+ 
+} */
+.child {
+  width: 550px;
+  height: 450px;
+  /* justify-content: center; */
+  margin-top: 250px;
+ 
+  margin: 0 auto;
+}

@@ -1,0 +1,20 @@
+{% load static %}
+<link rel = "stylesheet" type = "text/css" href = "{% static 'app1/main.css' %}">
+
+{% block content %}
+<div className = "back-img">
+<div class="container">
+    <div class="child">
+        <form action = "" method = "post">
+        {% csrf_token %}
+        {{form}}
+        
+	    <input className = "form1" type="submit" value=Submit>
+        
+    </form>
+    </div>
+</div>
+</div>
+<div>{{filter_data}}</div>
+
+{% endblock %}
